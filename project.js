@@ -43,7 +43,7 @@ const llamarFeriados = () => {
     removeAllChilds(div);
    
     if (año){
-fetch(`http://nolaborables.com.ar/api/v2/feriados/${año}?incluir=opcional`)
+fetch(`https://nolaborables.com.ar/api/v2/feriados/${año}?incluir=opcional`)
 .then((resp) => resp.json())
 .then( data => {
    
