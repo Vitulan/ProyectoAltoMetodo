@@ -1,0 +1,482 @@
+
+ body{
+     background-color: black;
+    
+     font-family: system, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+h1{
+    margin:3px;
+}
+@media only screen and (max-width: 600px) { 
+    .feriados{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+} 
+
+ @media only screen and (min-width: 600px) and (max-width: 1200px){ 
+    .feriados{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+} 
+
+@media only screen and (min-width: 1200px) { 
+    .feriados{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}    
+
+@media only screen and (max-width: 600px) { 
+    .feriado{
+        color: rgb(0, 0, 0);
+        background-color: #ecb651;
+        padding: 1%;
+        margin: 5px;
+        border-radius: 15px;
+        flex-basis: 22.1%;
+    }
+} 
+
+ @media only screen and (min-width: 600px) and (max-width: 1200px){ 
+    .feriado{
+        color: rgb(0, 0, 0);
+        background-color: #ecb651;
+        padding: 1%;
+        margin: 5px;
+        border-radius: 15px;
+        flex-basis: 46.5%;
+        transition: 0.3s;
+
+}}
+
+@media only screen and (min-width: 1200px){ 
+    .feriado{
+        color: rgb(0, 0, 0);
+        background-color: #ecb651;
+        padding: 1%;
+        margin: 5px;
+        border-radius: 15px;
+        flex-basis: 22.1%;
+        transition: 0.3s;
+    }}
+
+
+    .feriado:hover{
+    opacity: 0.7;
+    }
+   
+
+.header2{
+    padding: 1%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 1200px) {
+    .header2{
+        padding: 1%;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+}
+.botonMult{
+    font-family: system, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+    color: black;
+    border: none;
+    font-weight: bold;
+    background-color: #CC8011;
+    margin-top:10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:  0px 0px 5px rgba(0, 0, 0, 0.103); 
+}
+
+.botonCalen{
+    font-family: system, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+    color: black;
+    border: none;
+    font-weight: bold;
+    background-color: #EAA934;
+    margin-top:10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:  0px 0px 5px rgba(0, 0, 0, 0.103); 
+}
+
+.form{
+    margin: 10%;
+    text-decoration: none; 
+    display: contents;
+    font-family: system, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 1200px) {
+    .form{
+        margin: 0;
+        text-decoration: none; 
+        display: contents;
+        font-family: system, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+
+}
+@media only screen and (min-width: 1200px) {
+    .flex{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center
+    
+    }
+}
+.input{
+    border: none;
+    background-color: #f3efed;
+    margin:2.5%;
+    text-align: center;
+    
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:  0px 0px 5px rgba(0, 0, 0, 0.103); 
+}
+@media only screen and (max-width: 600px) { 
+    .barrados {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-grow: 2;
+    flex-basis: 50%;
+} }
+
+ @media only screen and (min-width: 600px) and (max-width: 1200px){ 
+     .barrados {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly; 
+    flex-grow: 2;
+    flex-basis: 50%;
+} }
+
+@media only screen and (min-width: 1200px) { 
+    .barrados {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-grow: 2;
+    flex-basis: 50%;
+}}
+@media only screen and (max-width: 600px) { 
+    .almanaque{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} 
+
+ @media only screen and (min-width: 600px) and (max-width: 1200px){ 
+    .almanaque{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} 
+
+@media only screen and (min-width: 1200px) { 
+    .almanaque{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.calculita{
+
+    height: fit-content;
+    margin-bottom: 5%;
+}
+@media only screen and (min-width: 1200px) {
+    .calculita{
+
+        height: fit-content;
+        margin-bottom: 0;
+        }}
+
+@media only screen and (min-width: 1200px) {
+.partedos{
+    display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        flex-direction: row;
+        
+}}
+.partedos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+}
+@media only screen and (max-width: 600px) { 
+    .arriba{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: column;
+}}
+@media only screen and (min-width: 600px) and (max-width: 1200px){ 
+    .arriba{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-direction: column;
+}}
+
+
+@media only screen and (min-width: 1200px) {
+    .arriba{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: stretch 
+}}
+
+@media only screen and (max-width: 600px) {
+    button {
+ 
+    border: none;
+    background-color: #EAA934;
+    margin:2.5%;
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:  0px 0px 5px rgba(0, 0, 0, 0.103);       
+  }}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+     button {
+ 
+    border: none;
+    background-color: #EAA934;
+    margin:0.7%;
+    text-align: center;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:  0px 0px 5px rgba(0, 0, 0, 0.103);       
+  }}
+
+@media only screen and (min-width: 1200px) 
+{button {
+ 
+    border: none;
+    background-color: #EAA934;
+    padding: 15px 32px;
+    text-align: center;
+    margin:2.5%;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:  0px 0px 5px rgba(0, 0, 0, 0.103);       
+  }}
+  button:hover {
+    background-color: #db9e2c;
+  }
+  .anclas{
+    
+    text-decoration: none; 
+    font-family: system, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+   
+ }
+  @media only screen and (max-width: 600px) {.anclas{
+    
+    text-decoration: none; 
+    font-family: system, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+   
+ }}
+ 
+ @media only screen and (max-width: 600px) {
+     .barrasup {
+    color:rgb(0, 0, 0);
+    background-color: #CC8011;
+    margin: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.336);
+    border-radius: 15px;
+    text-align: center;
+    flex-shrink: 2; 
+    flex-direction: row;
+    }} 
+ @media only screen and (min-width: 600px) and (max-width: 1200px){
+      .barrasup {
+    color:rgb(0, 0, 0);
+    background-color: #CC8011;
+    margin: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.336);
+    border-radius: 15px;
+    text-align: center;
+    flex-shrink: 2; 
+    flex-grow: 2;
+    flex-basis: 50%;
+  
+    }}
+
+ 
+ @media only screen and (min-width: 1200px) {
+     .barrasup {
+    color:rgb(0, 0, 0);
+    background-color: #CC8011;
+    margin: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.336);
+    border-radius: 15px;
+    text-align: center;
+    flex-shrink: 2;
+     flex-basis: 50%;
+    }}
+.feriadosTipo{
+     color: #3D3D3D;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     
+        
+}
+
+.feriadoTipo{
+    color: #3D3D3D;
+    padding: 3px;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center
+    
+}
+.main{
+    
+    background-color: #EAA934;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+    
+    
+}
+
+.textocalcu{
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+   padding-bottom: 5px;
+}
+
+
+.article{
+    color: rgb(0, 0, 0);
+    background-color: #D9DBDA;
+    padding: 5%;
+    margin: 5px;
+    border-radius: 15px;
+    flex-basis: 35%;
+}
+@media only screen and (max-width: 600px) {
+    
+.article{
+    color: rgb(0, 0, 0);
+    background-color: #D9DBDA;
+    padding: 5%;
+    margin: 5px;
+    border-radius: 15px;
+    flex-basis: 35%;
+}}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px){ 
+    
+.article{
+    color: rgb(0, 0, 0);
+    background-color: #D9DBDA;
+    padding: 5%;
+    margin: 5px;
+    border-radius: 15px;
+    flex-basis: 35%;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+    
+.article{
+    color: rgb(0, 0, 0);
+    background-color: #D9DBDA;
+    padding: 1%;
+    margin: 5px;
+    border-radius: 15px;
+    flex-basis: 35%;
+}
+}
+
+.footer{
+    color: white;
+background-color: #3D3D3D;      
+padding: 20px;
+margin: 5px;
+border-radius: 15px;
+}
+#header{
+    justify-content: center;
+    padding:1.3% ;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+@media only screen and (max-width: 600px) { }
+
+@media only screen and (min-width: 600px){ }
+
+@media only screen and (min-width: 1200px) {}

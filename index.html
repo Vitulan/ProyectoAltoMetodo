@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel=StyleSheet href="style.css" type="text/css" media=screen>
+
+</head>
+
+
+
+<body>
+    
+<header id=contenedor class="arriba">
+    <div id=headuno class="barrasup"> 
+        <div id=header>
+
+             <img id=albanaicon src="img/1x/mediana.png" alt="Icono Albana"> 
+             <h1>Albana Alza</h1>
+        </div>
+
+    </div>
+
+<div id=headdos class="barrasup barrados" > 
+ <div class="header2">
+        
+            <button type="button" class="boto">
+            <a href="#primerparte" class="anclas">Calculadora</a></button>
+            <button type="button" class="boto">
+            <a href="#segundaparte" class="anclas">Calendario</a></button>
+            <button type="button" class="boto">
+            <a href="#creditos" class="anclas">Créditos</a></button>
+        
+  </div>
+
+</div>
+</header>
+
+
+<main>
+    
+    <div  class="main partedos"> 
+        <div class="flex">
+            <a name=primerparte></a>
+            <img src="img/1x/Calcu.png" alt="Calculadora" class="calculita">
+            <form class="form" action="javascript:multiplicar()">
+                
+                <input  type="number" class="input" id="num1"    > <span>X</span> 
+                <input  type="number" class="input" id="num2"   ><span>  =  </span>
+                <input  type="number" class="input" id="resultado"  >
+                <button type="button" class="botonMult" onclick= "multiplicar()" > Multiplicar </button>
+            </form>
+      
+        </div >
+        
+    </div><a name=segundaparte></a>
+    <div class="almanaque">
+        <div  class="article partedos">
+            <div>
+            <form class="flex form" action="javascript:llamarFeriados()">
+                <img src="img/1x/Calendar.png" alt="Calculadora" class="calculita">
+                
+                <input  type="number" class="input" id="año" placeholder="Ej:2020"  >
+                <button type="button" class="botonCalen" onclick="llamarFeriados()"> Ver feriados </button>
+            </form>
+            </div>
+        </div>
+        
+        <div  class="article"> 
+            <article class="feriadosTipo">
+                <h2>Feriado no Laborables:</h2>
+                <h2 id="nolaborableTotal"></h2>
+                </article>
+            <article class="feriadosTipo">
+                    <h2>Feriados Trasladables:</h2>
+                    <h2 id="trasladableTotal"></h2>
+            </article>
+        
+        </div>
+    
+        <div  class="article"> 
+            <article class="feriadosTipo">
+                <h2>Feriados Inamobilbes:</h2>
+                <h2 id="inamovibleTotal"></h2>
+                </article>
+        
+        </div>
+    </div>
+
+    <div class="flex">
+        <div id="inamovible" class="feriados"></div>
+    </div>
+    
+
+</main>
+
+
+<footer>
+    <a name=creditos></a>
+    <div  class="footer"> 
+        <footer>
+            <h2>Albana Alza</h2>
+            <p> 2021 - Consigna para postulación laboral - Alto método -
+                Diseño de elementos visuales (Todos los íconos fueron realizados para este proyecto específico en Adobe Illustrator), maquetación y desarrollo: Albana Alza - 
+            </p>
+            
+        </footer>
+    
+    </div>
+
+
+
+</footer>
+<script  src="project.js"></script>
+</body>
+
+
+
+</html>
+
+
